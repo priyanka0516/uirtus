@@ -765,7 +765,7 @@ height: 500px;
 .service {
     position: relative;
     width: 100%;
-    padding: 20px 0 20px 0;
+    padding: 30px 0 30px 0;
 }
 
 .service .service-item {
@@ -1488,9 +1488,10 @@ height: 500px;
 .domain_heading {
     margin: 0;
     text-align: center;
-        animation: fade-bottom 1.5s ease-in;
+    animation: fade-bottom 1.5s ease-in;
     font-size: 35px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .section7 h2 span {
     color: #000;
@@ -1704,7 +1705,7 @@ height: 500px;
 }
 /* Advisory Page */
 #advisory{
-    padding: 20px 0px;
+    padding: 30px 0px;
     position: relative;
 }
 .paragraph{
@@ -1722,7 +1723,7 @@ height: 500px;
 .contact {
     position: relative;
     width: 100%;
-    padding: 20px 0 20px 0;
+    padding: 30px 0 30px 0;
 }
 
 .contact .contact-info {
