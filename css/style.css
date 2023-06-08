@@ -164,6 +164,9 @@ a:focus {
     width: 35px;
     height: 35px;
 }
+.navbar-toggler-icon:hover {
+   border: none !important;
+}
 @media (min-width: 992px) {
     .top-bar {
         padding: 0 60px;
