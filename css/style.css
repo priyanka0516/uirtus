@@ -1485,6 +1485,9 @@ height: 500px;
     background: #f3f3f3;
     padding: 30px 0;
 }
+.footer-contact a {
+    color: #fff;
+}
 .domain_heading {
     margin: 0;
     text-align: center;
