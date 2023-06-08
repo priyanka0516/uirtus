@@ -159,7 +159,11 @@ a:focus {
     color: darkorange;
     background: #ffffff;
 }
-
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
 @media (min-width: 992px) {
     .top-bar {
         padding: 0 60px;
