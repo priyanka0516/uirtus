@@ -753,7 +753,7 @@ height: 500px;
 .service {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 20px 0 20px 0;
 }
 
 .service .service-item {
@@ -1692,7 +1692,7 @@ height: 500px;
 }
 /* Advisory Page */
 #advisory{
-    padding: 50px 0px;
+    padding: 20px 0px;
     position: relative;
 }
 .paragraph{
@@ -1710,7 +1710,7 @@ height: 500px;
 .contact {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 20px 0 20px 0;
 }
 
 .contact .contact-info {
@@ -1930,6 +1930,9 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 100%;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
     max-width: 17%;
+}
+.navbar-toggler-icon img{
+    margin-top: 6px;
 }
 /* @keyframes up-down {
     0% {
