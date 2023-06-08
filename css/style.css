@@ -8,7 +8,7 @@
 body {
     color: #797979;
     background: #ffffff;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -164,8 +164,13 @@ a:focus {
     width: 35px;
     height: 35px;
 }
+button:focus {
+    outline: none !important;
+   outline: 5px auto none !important;
+}
 .navbar-toggler-icon:hover {
    border: none !important;
+   outline: none !important;
 }
 @media (min-width: 992px) {
     .top-bar {
