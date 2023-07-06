@@ -1346,14 +1346,15 @@ height: 500px;
 .footer .footer-link h2,
 .footer .footer-newsletter h2 {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     padding-bottom: 10px;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 700;
     letter-spacing: 1px;
     color: goldenrod;
 }
-.footer .footer-contact h2::after,
+
+/* .footer .footer-contact h2::after,
 .footer .footer-link h2::after,
 .footer .footer-newsletter h2::after {
     position: absolute;
@@ -1363,7 +1364,7 @@ height: 500px;
     bottom: 0;
     left: 0;
     background: #0796fe;
-}
+} */
 .footer .footer-link a {
     display: block;
     /* margin-bottom: 10px; */
@@ -1407,26 +1408,26 @@ height: 500px;
 .footer .footer-newsletter input {
     height: 60px;
     border: 2px solid #1d2434;
-    border-radius: 0;
+    border-radius: 28px;
 }
 .footer .footer-newsletter .btn {
     position: absolute;
     top: 8px;
-    right: 8px;
+    right: 28px;
     height: 44px;
     padding: 8px 20px;
     font-size: 14px;
     font-weight: 600;
-    color: #092a49;
+    color: goldenrod;
     background: none;
-    border-radius: 0;
-    border: 2px solid #092a49;
+    border-radius: 28px;
+    border: 2px solid goldenrod;
     transition: .3s;
 }
 
 .footer .footer-newsletter .btn:hover {
-    color: #0796fe;
-    background: #092a49;
+    color: #fff;
+    background: goldenrod;
 }
 
 .footer .copyright {
@@ -1513,6 +1514,7 @@ height: 500px;
     align-items: flex-start;
     height: auto;
 }
+
 .main-heading-domain-border2 div:first-child {
     background: #000;
     border-radius: 10px;
@@ -1559,10 +1561,20 @@ height: 500px;
 .text-block-text-md-right{
     text-align: right;
 }
+.team-inner p{
+    font-size: 14px;
+}
 @media only screen and (min-width:320px) and (max-width:479px) {
     .top-text-banner{
         font-size: 25px;
     }
+.box img{
+    margin-left: 40px;
+}
+        .team-inner p {
+            font-size: 14px;
+            width: 200px;
+        }
     .mobile-home-banner{
         padding: 20px;
     }
@@ -1630,18 +1642,55 @@ height: 500px;
         position: relative;
     }
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
 /* team */
+.about-image{
+        align-items: center;
+        background: url('./../img/about-bg.jpg');
+        background-position: 50%;
+        background-size: cover;
+        display: flex;
+        height: 420px;
+            background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+}
+/* .strategy-banner{
+            align-items: center;
+            background: url('./../img/about-bg.jpg');
+            background-position: 50%;
+            background-size: cover;
+            display: flex;
+            height: 420px;
+            justify-content: center;
+} */
 .main-image{
         position: relative;
         display: block;
-        position: relative;
-        max-height: 420px;
+        min-height: 420px;
         overflow: hidden;
-        height: 100%;
+        /* background-size: 100% 100%;
+        background: url('./../img/uirtus-bg.jpg') center center no-repeat; */
         }
 .main-image img{
     width: 100%;
-        height: auto;
+    height: auto;
+    background-position: center center;
+    /* Center the image */
+    background-repeat: no-repeat;
 }
 #our-team{
     padding: 30px 0px;
@@ -1685,11 +1734,35 @@ height: 500px;
     font-weight: 700;
 }
 .parallel a {
-  margin-left: 10px;
+  margin: 5px;
 }
-
+.team_images img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+.team_images img:hover{
+    /* box-shadow: 0 0 0 14px #f7f5ec; */
+    transform: scale(0.7);
+}
 .team_images {
-   border-radius: 10px;
+   border-radius: 50%;
+    display: inline-block;
+        height: 180px;
+        width: 180px;
+        margin: 0px 20px;
+        z-index: 1;
+        position: relative;
+}
+.staffedu{
+    padding: 20px 20px;
+}
+.contact .contact-form .btn:hover{
+    background-color: rgb(54, 40, 5);
+    color:#fff;
 }
 .team-details p{
     text-align: left;
@@ -1998,7 +2071,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 /* team- */
 .team-inner {
     position: relative;
-    padding: 80px 0;
+    padding: 10px 10px;
 }
 .p{
     display: flex;
@@ -2025,11 +2098,11 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 .team .text-block h4 {
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .team .text-block {
-    padding-right: 80px;
-    padding-left: 80px;
+    padding:10px 80px;
     position: relative;
 }
 
@@ -2096,4 +2169,36 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .text-md-right {
     text-align: left !important;
+}
+.our-clients{
+    padding: 30px 0px;
+}
+.our-clients .row {
+    justify-content: center;
+    padding: 30px 0px;
+}
+.our-clients .col,
+.our-clients .col:first-child {
+    /* border: 1px solid #ccc; */
+        padding: 1em;
+        margin: 5px;
+        border-radius: 5px
+}
+.box{
+    border: 10px solid #ececec;
+    padding: 10px;
+    margin: 0px 8px;
+    /* width: 220px; */
+}
+.box:hover{
+    border: 10px solid goldenrod;
+        padding: 10px;
+}
+.box2{
+    padding: 10px 0px;
+}
+.box2 p{
+    margin: 0px 8px;
+    font-size: 14px;
+    text-align: left;
 }
