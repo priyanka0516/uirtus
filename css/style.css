@@ -211,7 +211,7 @@ button:focus {
 
 .navbar .navbar-brand img {
     max-width: 100%;
-    height: 45px;
+    height: 65px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -771,7 +771,7 @@ height: 500px;
 .service .service-item {
     position: relative;
     border-radius: 10px;
-    height: 270px;
+    height: 280px;
     width: 100%;
     margin-bottom: 30px;
     padding: 10px;
@@ -1516,7 +1516,7 @@ height: 500px;
     padding: 15px;
     display: flex;
     align-items: flex-start;
-    height: 200px;
+    height: 170px;
 }
 
 .main-heading-domain-border2 div:first-child {
