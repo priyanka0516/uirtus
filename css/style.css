@@ -234,8 +234,17 @@ button:focus {
     border-radius: 0;
     background: #f8f9fa;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar a.nav-link {
+            padding: 8px 15px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+        }
+}
+@media (min-width: 1200px) {
 
-@media (min-width: 992px) {
     .navbar {
         position: relative;
         width: 100%;
@@ -257,7 +266,7 @@ button:focus {
         font-size: 14px;
         font-weight: 700;
         letter-spacing: 1px;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
 }
 
@@ -268,39 +277,14 @@ button:focus {
     }
     
     .navbar a.nav-link {
-        padding: 5px;
+        padding: 10px;
+        font-weight: 700;
     }
     
     .navbar .dropdown-menu {
         box-shadow: none;
     }
 }
-
-
-/*******************************/
-/********** Hero CSS ***********/
-/*******************************/
-/* .home-banner{
-height: 500px;
-}
-#owl-demo{
-    height: auto;
-}
-#owl-demo .item img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.owl-stage{
-height: 500px;
-}
-.owl-stage-outer{
-height: 500px;
-}
-.owl-carousel.owl-drag .owl-item{
-    height: auto;
-} */
-
 .carousel {
     position: relative;
     width: 100%;
